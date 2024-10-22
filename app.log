@@ -1,0 +1,153 @@
+2024-10-22T13:37:03.518+06:00  INFO 8904 --- [Agro] [main] com.agro.AgroApplication                 : Starting AgroApplication using Java 17.0.12 with PID 8904 (C:\Users\User\IdeaProjects\Agro\build\classes\java\main started by User in C:\Users\User\IdeaProjects\Agro)
+2024-10-22T13:37:03.521+06:00  INFO 8904 --- [Agro] [main] com.agro.AgroApplication                 : No active profile set, falling back to 1 default profile: "default"
+2024-10-22T13:37:04.845+06:00  INFO 8904 --- [Agro] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-22T13:37:04.853+06:00  INFO 8904 --- [Agro] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-22T13:37:04.854+06:00  INFO 8904 --- [Agro] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-10-22T13:37:04.919+06:00  INFO 8904 --- [Agro] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-22T13:37:04.919+06:00  INFO 8904 --- [Agro] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1356 ms
+2024-10-22T13:37:05.178+06:00  INFO 8904 --- [Agro] [main] o.f.c.i.s.classpath.ClassPathScanner     : Flyway OSS Edition 10.4.0 by Redgate
+2024-10-22T13:37:05.178+06:00  INFO 8904 --- [Agro] [main] o.f.c.i.s.classpath.ClassPathScanner     : 
+2024-10-22T13:37:05.178+06:00  INFO 8904 --- [Agro] [main] o.f.c.i.s.classpath.ClassPathScanner     : See release notes here: https://rd.gt/416ObMi
+2024-10-22T13:37:05.190+06:00  INFO 8904 --- [Agro] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-22T13:37:05.349+06:00  INFO 8904 --- [Agro] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@787988f4
+2024-10-22T13:37:05.351+06:00  INFO 8904 --- [Agro] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-22T13:37:05.369+06:00  INFO 8904 --- [Agro] [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 16.4)
+2024-10-22T13:37:05.417+06:00  INFO 8904 --- [Agro] [main] o.f.core.internal.command.DbValidate     : Successfully validated 6 migrations (execution time 00:00.027s)
+2024-10-22T13:37:05.480+06:00  INFO 8904 --- [Agro] [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 6
+2024-10-22T13:37:05.481+06:00 ERROR 8904 --- [Agro] [main] o.f.core.internal.command.DbMigrate      : Schema "public" has version 6, but no migration could be resolved in the configured locations !
+2024-10-22T13:37:05.483+06:00  INFO 8904 --- [Agro] [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2024-10-22T13:37:06.132+06:00 DEBUG 8904 --- [Agro] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2024-10-22T13:37:06.159+06:00 DEBUG 8904 --- [Agro] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-10-22T13:37:06.181+06:00 DEBUG 8904 --- [Agro] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-22T13:37:06.208+06:00 DEBUG 8904 --- [Agro] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-22T13:37:06.456+06:00  INFO 8904 --- [Agro] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4c28f97e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21d8da75, org.springframework.security.web.context.SecurityContextHolderFilter@2cacb445, org.springframework.security.web.header.HeaderWriterFilter@2a531637, org.springframework.web.filter.CorsFilter@5a1c7619, org.springframework.security.web.csrf.CsrfFilter@398694a6, org.springframework.security.web.authentication.logout.LogoutFilter@48d31d25, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7ebc5be6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@41a8f0d8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@20a946d9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e647f39, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a8640f7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ca10069, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b41b8bb, org.springframework.security.web.access.ExceptionTranslationFilter@4641f66c, org.springframework.security.web.access.intercept.AuthorizationFilter@355493bf]
+2024-10-22T13:37:06.575+06:00  INFO 8904 --- [Agro] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-22T13:37:06.584+06:00  INFO 8904 --- [Agro] [main] com.agro.AgroApplication                 : Started AgroApplication in 3.479 seconds (process running for 5.164)
+2024-10-22T13:53:52.025+06:00  INFO 8904 --- [Agro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-22T13:53:52.028+06:00  INFO 8904 --- [Agro] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-22T14:54:58.350+06:00  INFO 13764 --- [main] com.agro.AgroApplication                 : Starting AgroApplication using Java 17.0.12 with PID 13764 (C:\Users\User\IdeaProjects\Agro\build\classes\java\main started by User in C:\Users\User\IdeaProjects\Agro)
+2024-10-22T14:54:58.358+06:00  INFO 13764 --- [main] com.agro.AgroApplication                 : No active profile set, falling back to 1 default profile: "default"
+2024-10-22T14:55:00.680+06:00  INFO 13764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-22T14:55:00.686+06:00  INFO 13764 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-22T14:55:00.687+06:00  INFO 13764 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-10-22T14:55:00.734+06:00  INFO 13764 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-22T14:55:00.734+06:00  INFO 13764 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2253 ms
+2024-10-22T14:55:00.869+06:00  INFO 13764 --- [main] o.f.c.i.s.classpath.ClassPathScanner     : Flyway OSS Edition 10.4.0 by Redgate
+2024-10-22T14:55:00.869+06:00  INFO 13764 --- [main] o.f.c.i.s.classpath.ClassPathScanner     : 
+2024-10-22T14:55:00.870+06:00  INFO 13764 --- [main] o.f.c.i.s.classpath.ClassPathScanner     : See release notes here: https://rd.gt/416ObMi
+2024-10-22T14:55:00.880+06:00  INFO 13764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-22T14:55:01.015+06:00  INFO 13764 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@197ce367
+2024-10-22T14:55:01.016+06:00  INFO 13764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-22T14:55:01.035+06:00  INFO 13764 --- [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 16.4)
+2024-10-22T14:55:01.066+06:00  INFO 13764 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.021s)
+2024-10-22T14:55:01.121+06:00  INFO 13764 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 1
+2024-10-22T14:55:01.123+06:00  INFO 13764 --- [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2024-10-22T14:55:01.606+06:00 DEBUG 13764 --- [main] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2024-10-22T14:55:01.800+06:00 DEBUG 13764 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2024-10-22T14:55:01.901+06:00 DEBUG 13764 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-10-22T14:55:01.923+06:00  INFO 13764 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d95166a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18b3db6e, org.springframework.security.web.context.SecurityContextHolderFilter@112530c3, org.springframework.security.web.header.HeaderWriterFilter@774013dc, org.springframework.web.filter.CorsFilter@4b32465, org.springframework.security.web.authentication.logout.LogoutFilter@4cadd4d4, com.agro.config.JwtAuthenticationFilter@34cb0e49, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@355493bf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ebc5be6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1feb586d, org.springframework.security.web.session.SessionManagementFilter@63c4d16, org.springframework.security.web.access.ExceptionTranslationFilter@14d81f2c, org.springframework.security.web.access.intercept.AuthorizationFilter@300aa927]
+2024-10-22T14:55:01.991+06:00 DEBUG 13764 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-22T14:55:02.013+06:00 DEBUG 13764 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-22T14:55:02.229+06:00  INFO 13764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-22T14:55:02.236+06:00  INFO 13764 --- [main] com.agro.AgroApplication                 : Started AgroApplication in 4.72 seconds (process running for 5.683)
+2024-10-22T14:55:20.953+06:00  INFO 13764 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-22T14:55:20.954+06:00  INFO 13764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-22T14:55:20.954+06:00 DEBUG 13764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-10-22T14:55:20.954+06:00 DEBUG 13764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-10-22T14:55:20.954+06:00 DEBUG 13764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-10-22T14:55:20.955+06:00 DEBUG 13764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5ae2b1fe
+2024-10-22T14:55:20.955+06:00 DEBUG 13764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@328c1253
+2024-10-22T14:55:20.955+06:00 DEBUG 13764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-22T14:55:20.955+06:00  INFO 13764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-22T14:55:20.969+06:00  WARN 13764 --- [http-nio-8080-exec-1] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/swagger-ui.html' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2024-10-22T14:55:20.980+06:00 DEBUG 13764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui.html", parameters={}
+2024-10-22T14:55:20.981+06:00 DEBUG 13764 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc#redirectToUi(HttpServletRequest)
+2024-10-22T14:55:21.007+06:00 DEBUG 13764 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2024-10-22T14:55:21.008+06:00 DEBUG 13764 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2024-10-22T14:55:21.009+06:00 DEBUG 13764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2024-10-22T14:55:21.019+06:00 DEBUG 13764 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2024-10-22T14:55:21.019+06:00 DEBUG 13764 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-10-22T14:55:21.023+06:00 DEBUG 13764 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:21.033+06:00 DEBUG 13764 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-bundle.js", parameters={}
+2024-10-22T14:55:21.033+06:00 DEBUG 13764 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui.css", parameters={}
+2024-10-22T14:55:21.034+06:00 DEBUG 13764 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-10-22T14:55:21.034+06:00 DEBUG 13764 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-10-22T14:55:21.037+06:00 DEBUG 13764 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.css", parameters={}
+2024-10-22T14:55:21.038+06:00 DEBUG 13764 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:21.038+06:00 DEBUG 13764 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-10-22T14:55:21.041+06:00 DEBUG 13764 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:21.046+06:00 DEBUG 13764 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:21.049+06:00 DEBUG 13764 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2024-10-22T14:55:21.050+06:00 DEBUG 13764 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-10-22T14:55:21.056+06:00 DEBUG 13764 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:21.060+06:00 DEBUG 13764 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-10-22T14:55:21.061+06:00 DEBUG 13764 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-10-22T14:55:21.071+06:00 DEBUG 13764 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:21.317+06:00 DEBUG 13764 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2024-10-22T14:55:21.317+06:00 DEBUG 13764 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-10-22T14:55:21.318+06:00 DEBUG 13764 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2024-10-22T14:55:21.319+06:00 DEBUG 13764 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+2024-10-22T14:55:21.322+06:00 DEBUG 13764 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:21.353+06:00 DEBUG 13764 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2024-10-22T14:55:21.353+06:00 DEBUG 13764 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2024-10-22T14:55:21.901+06:00  INFO 13764 --- [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 541 ms
+2024-10-22T14:55:21.906+06:00 DEBUG 13764 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-10-22T14:55:21.906+06:00 DEBUG 13764 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-10-22T14:55:21.907+06:00 DEBUG 13764 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:25.323+06:00 DEBUG 13764 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2024-10-22T14:55:25.324+06:00 DEBUG 13764 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-10-22T14:55:25.327+06:00 DEBUG 13764 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:25.362+06:00 DEBUG 13764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui.css", parameters={}
+2024-10-22T14:55:25.362+06:00 DEBUG 13764 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-10-22T14:55:25.366+06:00 DEBUG 13764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:25.368+06:00 DEBUG 13764 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.css", parameters={}
+2024-10-22T14:55:25.368+06:00 DEBUG 13764 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-bundle.js", parameters={}
+2024-10-22T14:55:25.368+06:00 DEBUG 13764 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2024-10-22T14:55:25.368+06:00 DEBUG 13764 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-10-22T14:55:25.368+06:00 DEBUG 13764 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-10-22T14:55:25.368+06:00 DEBUG 13764 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-10-22T14:55:25.368+06:00 DEBUG 13764 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:25.368+06:00 DEBUG 13764 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-10-22T14:55:25.368+06:00 DEBUG 13764 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-10-22T14:55:25.368+06:00 DEBUG 13764 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:25.368+06:00 DEBUG 13764 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:25.387+06:00 DEBUG 13764 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:25.494+06:00 DEBUG 13764 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2024-10-22T14:55:25.495+06:00 DEBUG 13764 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-10-22T14:55:25.495+06:00 DEBUG 13764 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2024-10-22T14:55:25.496+06:00 DEBUG 13764 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+2024-10-22T14:55:25.496+06:00 DEBUG 13764 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:55:25.513+06:00 DEBUG 13764 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2024-10-22T14:55:25.514+06:00 DEBUG 13764 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2024-10-22T14:55:25.515+06:00 DEBUG 13764 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-10-22T14:55:25.515+06:00 DEBUG 13764 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-10-22T14:55:25.516+06:00 DEBUG 13764 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-10-22T14:56:39.747+06:00  INFO 13764 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-22T14:56:39.749+06:00  INFO 13764 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-22T14:58:48.469+06:00  INFO 12616 --- [main] com.agro.AgroApplication                 : Starting AgroApplication using Java 17.0.12 with PID 12616 (C:\Users\User\IdeaProjects\Agro\build\classes\java\main started by User in C:\Users\User\IdeaProjects\Agro)
+2024-10-22T14:58:48.473+06:00  INFO 12616 --- [main] com.agro.AgroApplication                 : No active profile set, falling back to 1 default profile: "default"
+2024-10-22T14:58:51.425+06:00  INFO 12616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-22T14:58:51.433+06:00  INFO 12616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-22T14:58:51.434+06:00  INFO 12616 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-10-22T14:58:51.496+06:00  INFO 12616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-22T14:58:51.496+06:00  INFO 12616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2867 ms
+2024-10-22T14:58:51.671+06:00  INFO 12616 --- [main] o.f.c.i.s.classpath.ClassPathScanner     : Flyway OSS Edition 10.4.0 by Redgate
+2024-10-22T14:58:51.672+06:00  INFO 12616 --- [main] o.f.c.i.s.classpath.ClassPathScanner     : 
+2024-10-22T14:58:51.672+06:00  INFO 12616 --- [main] o.f.c.i.s.classpath.ClassPathScanner     : See release notes here: https://rd.gt/416ObMi
+2024-10-22T14:58:51.686+06:00  INFO 12616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-22T14:58:51.861+06:00  INFO 12616 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@ac4915e
+2024-10-22T14:58:51.862+06:00  INFO 12616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-22T14:58:51.895+06:00  INFO 12616 --- [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 16.4)
+2024-10-22T14:58:51.949+06:00  INFO 12616 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.033s)
+2024-10-22T14:58:52.009+06:00  INFO 12616 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 1
+2024-10-22T14:58:52.011+06:00  INFO 12616 --- [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2024-10-22T14:58:52.632+06:00 DEBUG 12616 --- [main] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2024-10-22T14:58:52.896+06:00 DEBUG 12616 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2024-10-22T14:58:53.021+06:00 DEBUG 12616 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-10-22T14:58:53.049+06:00  INFO 12616 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65503a26, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13aa54f1, org.springframework.security.web.context.SecurityContextHolderFilter@6c9151c1, org.springframework.security.web.header.HeaderWriterFilter@1b465fa9, org.springframework.web.filter.CorsFilter@41be8db9, org.springframework.security.web.authentication.logout.LogoutFilter@448892f1, com.agro.config.JwtAuthenticationFilter@258a8584, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41f40dfa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2548fc01, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26d7cb0d, org.springframework.security.web.session.SessionManagementFilter@6774f264, org.springframework.security.web.access.ExceptionTranslationFilter@1f4dd016, org.springframework.security.web.access.intercept.AuthorizationFilter@153c6603]
+2024-10-22T14:58:53.142+06:00 DEBUG 12616 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-22T14:58:53.173+06:00 DEBUG 12616 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-22T14:58:53.451+06:00  INFO 12616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-22T14:58:53.459+06:00  INFO 12616 --- [main] com.agro.AgroApplication                 : Started AgroApplication in 5.858 seconds (process running for 6.403)
+2024-10-22T14:59:19.552+06:00  INFO 12616 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-22T14:59:19.554+06:00  INFO 12616 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

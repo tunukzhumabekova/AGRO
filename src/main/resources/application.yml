@@ -1,0 +1,29 @@
+spring:
+#  application:
+#    name: Agro
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jooq:
+    sql-dialect: POSTGRES
+  flyway:
+    url: jdbc:postgresql://localhost:5432/postgres
+    user: postgres
+    password: root
+    locations: classpath:db/migration
+
+jwt:
+  secret-key: 66556A586E3272357538782F4125442A472D4B6150645367566B59703373367629320932AD
+
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        web: DEBUG
+    com:
+      company: TRACE
+  file:
+    name: app.log
