@@ -44,7 +44,7 @@ public class JwtService {
                 .issuedAt(new Date(System.currentTimeMillis())).expiration(
                         new Date(System.currentTimeMillis() + 10000 * 60 * 24)
                 )
-                .signWith(getSignInKey(), SignatureAlgorithm.HS512)
+                .signWith(getSignInKey(), SignatureAlgorithm.HS256)
                 .compact();
     }
 
